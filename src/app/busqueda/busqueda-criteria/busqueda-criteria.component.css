@@ -1,0 +1,17 @@
+img {
+  border-radius: 6.5rem; /*Para dar borde*/
+}
+
+button{
+  width: 120px;
+}
+
+mat-grid-list {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+
+.icon{
+  margin-left: 10px;
+}

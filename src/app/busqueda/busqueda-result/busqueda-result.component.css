@@ -1,0 +1,85 @@
+img {
+  border-radius: 6.5rem; /*Para dar borde*/
+  height: 200px;
+}
+
+mat-grid-list {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding:10rem  /*Para dar espacio dentro de casilla imagen*/
+}
+
+.titulo {
+  margin: auto;
+  background-color: rgba(242, 180, 126, 0.891);
+  padding: 0.8rem;
+  border-radius: 2.5rem;
+}
+
+div,h1{
+  color: rgb(183, 40, 75);
+  margin: auto;
+}
+
+.wrapper{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #6481da transparent #6481da transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nombres{
+  vertical-align: middle;
+  margin: 0, auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+td,img{
+  align-items:center;
+}
+
+mat-grid-list{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.pokemons {
+  background-color: rgba(242, 180, 126, 0.701);  /*Para dar color a fondo*/
+  width: 50rem;  /*Para determinar espacio usado de ancho*/
+  padding: 2.5rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(208, 35, 78);
+  margin: 0.5rem 2rem 0 2rem;
+}

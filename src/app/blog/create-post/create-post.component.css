@@ -1,0 +1,22 @@
+mat-card {
+  width: 60%;
+  margin: 2rem auto auto auto;
+}
+
+mat-form-field,
+textarea {
+  width: 100%;
+}
+
+.enviar{
+  background-color: rgba(240, 164, 98, 0.891);
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fondo{
+  background-color: rgba(241, 196, 156, 0.886);
+}

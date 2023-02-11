@@ -1,0 +1,147 @@
+<mat-grid-list cols="4" rowHeight="2rem" gutterSize="1.5rem" >
+  <div>
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(1)" mat-raised-button color="accent">Normal</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w4gu-bcf44127-7bc3-468d-b148-1af8cf4e7ac0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzRndS1iY2Y0NDEyNy03YmMzLTQ2OGQtYjE0OC0xYWY4Y2Y0ZTdhYzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-vmnJpKCstvGfBGAZSDdWifzyck5L1V3jv6c3VZAB-4"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(2)" mat-raised-button color="accent">Luchador</button>
+      <img class="icon"
+        src="https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(3)" mat-raised-button color="accent">Volador</button>
+      <img class="icon"
+        src="https://3.bp.blogspot.com/-Uy0sArpfP_A/WTKf1mZNxqI/AAAAAAAAA9s/3tRqA8xSkIUDMKcsO4d0EvwrFE0sXkDfQCLcB/s400/Flying.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(4)" mat-raised-button color="accent">Venenoso</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60emt7-47dd3b0b-e183-48ac-b2c8-29acfaf23345.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwZW10Ny00N2RkM2IwYi1lMTgzLTQ4YWMtYjJjOC0yOWFjZmFmMjMzNDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ej3p34cBoAgY4MTiP41IwTMVFfw-7UKJAgttHTWiZYA"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(5)" mat-raised-button color="accent">Tierra</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60ip66-33ba9598-ad1f-44c0-bf01-97bc7087537c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwaXA2Ni0zM2JhOTU5OC1hZDFmLTQ0YzAtYmYwMS05N2JjNzA4NzUzN2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1PERUsrBVM1PMauDQqU0n6-1d5x27xua3Zy85kfVrBg"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(6)" mat-raised-button color="accent">Roca</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60ouk8-f215f481-2096-4435-9b2b-9bda9cbab633.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwb3VrOC1mMjE1ZjQ4MS0yMDk2LTQ0MzUtOWIyYi05YmRhOWNiYWI2MzMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.C-so-oBGSMrhQjAZCvPfxThLRU51POmGQSLpndWoipA"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(7)" mat-raised-button color="accent">Bicho</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d607cn9-cfdd9d24-cdf0-469a-9aa4-f9f965861bbf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwN2NuOS1jZmRkOWQyNC1jZGYwLTQ2OWEtOWFhNC1mOWY5NjU4NjFiYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.q4sZ4jwCuR_xTV_4qC2gfR2e4LaKiSufYNbL2vbe_Zw"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(8)" mat-raised-button color="accent">Fantasma</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60owgy-a7268d0a-16b8-4fcd-ba33-8693f0bd401e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwb3dneS1hNzI2OGQwYS0xNmI4LTRmY2QtYmEzMy04NjkzZjBiZDQwMWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YviN7Ut0mDSC85LB34cdO43vBTexZICfV-w_C-iUVgk"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(9)" mat-raised-button color="accent">Metal</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w3tj-08f8872a-82e0-4261-b39f-6d66030b354f.png/v1/fill/w_720,h_720,strp/metal_energy_by_humac1_d50w3tj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYWJhMWE3NTYtZDk1NS00M2Y2LWEyZTktNWI3ZDYwNDA2ODU0XC9kNTB3M3RqLTA4Zjg4NzJhLTgyZTAtNDI2MS1iMzlmLTZkNjYwMzBiMzU0Zi5wbmciLCJ3aWR0aCI6Ijw9NzIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Dpncm4PEyyma0CBCZcpVZ0Lm0YeMMKHnrxCu5RK9Nh0"
+        height="30" width="30px"
+        >
+      </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(10)"  mat-raised-button color="accent">Fuego</button>
+      <img class="icon"
+        src="https://toppng.com/uploads/preview/69kib-375x360-fire-pokemon-fire-energy-11562907671ukkqpconnm.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <button (click)="onCriteriaSelect(11)"  mat-raised-button color="accent">Agua</button>
+      <img class="icon"
+        src="https://i.pinimg.com/originals/c3/61/39/c3613977779d28d1da20e3d814ac1ce0.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(12)" mat-raised-button color="accent">Planta</button>
+      <img class="icon"
+        src="https://www.nicepng.com/png/full/201-2016861_grass-type-symbol-pokemon-tcg-pokemon-card-grass.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(13)" mat-raised-button color="accent">Electrico</button>
+      <img class="icon"
+        src="https://toppng.com/uploads/preview/pokemon-electric-type-stickers-by-cat-games-inc-electric-energy-pokemon-symbol-11563101763qkg2toobev.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(14)" mat-raised-button color="accent">Psíquico</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w3p6-aa8c3894-d7bf-450b-99be-f608d14e1e4a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzNwNi1hYThjMzg5NC1kN2JmLTQ1MGItOTliZS1mNjA4ZDE0ZTFlNGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4aysByqaS8SKRJUpHQbE__gimNY-udcdRhXjC4Ed2eM"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(15)" mat-raised-button color="accent">Hielo</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60ovyf-ae4a4bec-bfb3-424c-97e9-b08704f0fede.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwb3Z5Zi1hZTRhNGJlYy1iZmIzLTQyNGMtOTdlOS1iMDg3MDRmMGZlZGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MbRxiFqr_EWfbH9966iUtr1Pjso2QrLZ37OqiiGm5s8"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(16)" mat-raised-button color="accent">Dragon</button>
+      <img class="icon"
+        src="https://www.pokebeach.com/news/1211/pokemon-tcg-dragon-type-symbol.png"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(17)" mat-raised-button color="accent">Siniestro</button>
+      <img class="icon"
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0726fbdd-a6a6-4871-bed6-e8e0b9ce2af0/d60p3e9-3f607ab3-403d-4eb9-85b6-035dac99f672.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3MjZmYmRkLWE2YTYtNDg3MS1iZWQ2LWU4ZTBiOWNlMmFmMFwvZDYwcDNlOS0zZjYwN2FiMy00MDNkLTRlYjktODViNi0wMzVkYWM5OWY2NzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YPWIE_pDnJPckzhoQKAZMGLb41p9CVDIuZpRJ-jFCcI"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+    <mat-grid-tile class="elemento">
+      <button (click)="onCriteriaSelect(18)" mat-raised-button color="accent">Hada</button>
+      <img class="icon"
+        src="https://i.pinimg.com/474x/14/0a/8f/140a8f4306792446f58aea222b250725.jpg"
+        height="30" width="30px"
+        >
+    </mat-grid-tile>
+
+  </div>
+</mat-grid-list>

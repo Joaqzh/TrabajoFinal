@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.enviar{
+  background-color: rgba(240, 164, 98, 0.891);
+}
+
+mat-card {
+  background-color: rgba(242, 180, 126, 0.891);
+  border-radius: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}

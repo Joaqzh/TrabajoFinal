@@ -1,0 +1,25 @@
+<div *ngIf="criteriaListenedFromExternalComponent.criteria==''" class="wrapper">
+  <div class="titulo">
+    <h1>Criteria no seleccionada</h1>
+  </div>
+</div>
+
+<div class="wrapper" *ngIf="loading">
+  <div  class="lds-dual-ring"></div>
+</div>
+
+  <mat-grid-list cols="6" rowHeight="18rem" gutterSize="1rem" *ngIf="criteriaListenedFromExternalComponent.criteria!='' && !loading">
+    <div *ngFor="let pok of criteriaListenedFromExternalComponent.pokemon">
+      <mat-grid-tile class="pokemons">
+        <div>
+          <h1 class="nombres">{{pok.pokemon.name}}</h1>
+          <hr>
+          <img src={{pok.pokemon.url}} alt="fotito">
+        </div>
+      </mat-grid-tile>
+    </div>
+  </mat-grid-list>
+
+
+
+

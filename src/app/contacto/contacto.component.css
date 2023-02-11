@@ -1,0 +1,54 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 00px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+mat-form-field{
+  width: 100%;
+  margin: auto;
+}
+
+form{
+  width: 100%;
+  margin: auto;
+}
+
+mat-card {
+  width: 40%;
+  background-color: rgba(242, 180, 126, 0.891);
+  margin-bottom: 5rem;
+}
+
+.enviar{
+  background-color: rgba(240, 164, 98, 0.891);
+}
+
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.datos{
+  color:rgb(183, 40, 75);
+  font-size: large;
+}
+
+.formulario{
+  margin: 2rem;
+  white-space: 40px;
+  border-radius: 2rem;
+}

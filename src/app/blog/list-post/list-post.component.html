@@ -1,0 +1,15 @@
+<mat-accordion *ngIf="postList.length>0">
+  <mat-expansion-panel class="lista"  *ngFor="let post of postList">
+    <mat-expansion-panel-header class="panel" *ngIf="post.visible == 'true'">
+      {{post.titulo}}
+    </mat-expansion-panel-header>
+    <mat-expansion-panel-body *ngIf="post.visible == 'true'">
+      <p>
+        {{post.contenido}}
+      </p>
+      <mat-action-row>
+        <button (click)="borrarPost(post.titulo, post.contenido)" mat-button color = "warn">Eliminar</button>
+      </mat-action-row>
+    </mat-expansion-panel-body>
+  </mat-expansion-panel>
+</mat-accordion>

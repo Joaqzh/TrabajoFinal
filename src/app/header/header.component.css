@@ -1,0 +1,19 @@
+.spacer {
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(183, 40, 75);
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  color: accent;
+  background-color: rgb(242, 180, 126);
+  padding: 15px 25px;
+}
+
+::ng-deep .mat-toolbar {
+  background-color: rgb(241, 189, 144);
+}
