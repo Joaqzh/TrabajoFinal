@@ -3,13 +3,14 @@
     Contactanos
   </mat-card-title>
   <mat-card-content>
-    <form (submit)="submit(postForm)" #postForm="ngForm">
+    <form (submit)="submit(postForm)" #postForm="ngForm"
+          action = "enviar.php" method = "post" class="form_contacto">
 
       <p class="datos">
         Nombres
       </p>
       <mat-form-field>
-        <input type="text" matInput ngModel placeholder="Nombre" name="nombre" required #nombre="ngModel">
+        <input type="text" matInput ngModel placeholder="nombre" name="nombre" required #nombre="ngModel">
         <mat-error *ngIf="nombre.invalid">Introduzca su nombre</mat-error>
       </mat-form-field>
 
@@ -17,7 +18,7 @@
         Telefono
       </p>
       <mat-form-field>
-        <input type="text" matInput ngModel placeholder="Telefono" name="telefono" required #telefono="ngModel">
+        <input type="text" matInput ngModel placeholder="telefono" name="telefono" required #telefono="ngModel">
         <mat-error *ngIf="telefono.invalid">Introduzca su telefono</mat-error>
       </mat-form-field>
 
@@ -25,8 +26,8 @@
         Correo Electronico
       </p>
       <mat-form-field>
-        <input type="text" matInput ngModel placeholder="joaquin@example.com" name="email" required #email="ngModel">
-        <mat-error *ngIf="email.invalid">Introduzca su correo</mat-error>
+        <input type="text" matInput ngModel placeholder="joaquin@example.com" name="correo" required #correo="ngModel">
+        <mat-error *ngIf="correo.invalid">Introduzca su correo</mat-error>
       </mat-form-field>
 
       <p class="datos">

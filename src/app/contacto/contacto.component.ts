@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class ContactoComponent {
   constructor(private router: Router){}
   submit(f: NgForm){
-    if(f.value.email!='' && f.value.nombre!='' && f.value.mensaje!='' && f.value.telefono!=''){
+    if(f.value.correo!='' && f.value.nombre!='' && f.value.mensaje!='' && f.value.telefono!=''){
       alert("Mensaje Enviado con éxito");
       f.resetForm();
       return
